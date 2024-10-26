@@ -13,7 +13,8 @@ class Database {
     }
     
     public static function conectar () {
-        
+
+        $dd = 'Database=gestion;Server=pg-server01.postgres.database.azure.com;User Id=kwkeweooph;Password=36gi0OagColj$E$f'
         $hostname = 'us-cdbr-east-05.cleardb.net';
         $database = 'heroku_734ef63ccdc2de6';
         $username = 'b42d821ea516bb';
